@@ -40,7 +40,8 @@
 />
 
   <style>
-      box-sizing: border-box;
+     * {
+  box-sizing: border-box;
 }
 
 html {
@@ -92,17 +93,19 @@ img {
     }
 
     .topbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 18px;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+}
 
-    .brand-logo {
-      height: 120px;
-      width: auto;
-      display: block;
-    }
+.brand-logo {
+  height: 120px;
+  max-width: 100%;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
 
     
 
@@ -231,12 +234,12 @@ img {
         klarer Routine und besserer Planung kommst du leichter in den Tag.
       </p>
 <a
-        href="https://play.google.com/store/apps/details?id=com.masterinpocket.shiftmaestro"
-        target="_blank"
-        class="btn btn-primary"
-      >
-       Shift Lion im Play Store herunterladen
-      </a>
+  href="https://play.google.com/store/apps/details?id=com.masterinpocket.shiftmaestro"
+  target="_blank"
+  class="btn"
+>
+  Shift Lion im Play Store herunterladen
+</a>
 
      <nav class="nav">
   <a href="index.html">🏠 Startseite</a>
@@ -378,10 +381,13 @@ img {
         klar im Blick.
       </p>
 
-      <a href="https://play.google.com/store/apps/details?id=com.masterinpocket.shiftmaestro" class="btn" target="_blank">
-   Shift Lion im Play Store herunterladen
-      </a>
-    </section>
+     <a
+  href="https://play.google.com/store/apps/details?id=com.masterinpocket.shiftmaestro"
+  target="_blank"
+  class="btn"
+>
+  Shift Lion im Play Store herunterladen
+</a>
 
   </main>
 </body>
